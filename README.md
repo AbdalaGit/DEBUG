@@ -1,3 +1,3 @@
 # DEBUG
 this is page debug this company programer
-https://abdalagit.github.io/DEBUG/
+https://abdalagit.github.io/DEBUG/ndex.html
