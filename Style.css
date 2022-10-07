@@ -704,6 +704,7 @@ header .navbar ul li a:hover,
 
 .footer .box{
     flex-direction: column;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -733,6 +734,8 @@ header .navbar ul li a:hover,
 
 .footer .box .social {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 767px) {
