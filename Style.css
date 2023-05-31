@@ -29,11 +29,11 @@ li{
 
 body{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 * {
     font-family: "Open Sans", sans-serif;
-    transition: all 0.6s linear;
     border: none;
     outline: none;
     padding: 0;
@@ -41,6 +41,7 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     text-transform: capitalize;
+    transition: all 0.5s linear;
 }
 
 html {
@@ -101,7 +102,7 @@ html {
     background: var(--main);
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.7s;
+    transition: 0.6s;
 }
 
 .Arabic:hover {
@@ -266,7 +267,7 @@ header .navbar ul li a:hover,
 .skills {
     position: relative;
     width: 100%;
-    height: 130vh;
+    max-height: 100%;
 }
 
 .skills img {
@@ -351,7 +352,7 @@ header .navbar ul li a:hover,
 }
 
 .main .about-page {
-    width: 150px;
+    width: 180px;
     color: var(--white-text);
     overflow: hidden;
     font-size: 30px;
@@ -368,7 +369,7 @@ header .navbar ul li a:hover,
     }
 
     to {
-        width: 150px;
+        width: 180px;
     }
 }
 
@@ -522,7 +523,7 @@ header .navbar ul li a:hover,
     border-radius: 10px;
     border-bottom: 4px solid var(--main);
     border-top: 4px solid var(--main);
-    transition: all 0.4s linear;
+    transition: .6s ease-in;
 }
 
 .box-content:hover {
@@ -645,7 +646,6 @@ header .navbar ul li a:hover,
     border-radius: 10px;
     border-bottom: 4px solid var(--main);
     border-top: 4px solid var(--main);
-    transition: all 0.4s linear;
 }
 
 .awesome-icon:hover {
@@ -757,7 +757,6 @@ header .navbar ul li a:hover,
     width: 50px;
     height: 50px;
     font-size: 20px;
-    transition: var(--main-transition);
 }
 
 .footer .box .social .facebook:hover {
@@ -799,7 +798,6 @@ header .navbar ul li a:hover,
 
 .footer .box .links li a {
     color: #b9b9b9;
-    transition: var(--main-transition);
 }
 
 .footer .box .links li a::before {
@@ -1072,7 +1070,7 @@ header {
 
 .skills {
     width: 100%;
-    min-height: 230vh;
+    height: 110%;
 }
 
 .skills img {
@@ -1251,7 +1249,7 @@ header {
 
 .skills {
     width: 100%;
-    min-height: 230vh;
+    min-height: 110%;
 }
 
 .skills img {
@@ -1376,7 +1374,7 @@ header {
 *******************start main************************
 *****************************************************/
 .main img {
-    width: 40%;
+    width: 30%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -1419,7 +1417,7 @@ header {
 
 .skills {
     width: 100%;
-    min-height: 230vh;
+    min-height: 110%;
 }
 
 .skills img {
@@ -1522,7 +1520,7 @@ header {
 } 
 
 header {
-    max-width: 100%;
+    /* max-width: 100%; */
     height: 70px;
     margin-left: 0;
     justify-content: space-between;
@@ -1547,8 +1545,8 @@ header {
 *******************start main************************
 *****************************************************/
 .main img {
-    width: 35%;
-    left: 50%;
+    width: 30%;
+    left: 48%;
     transform: translateX(-50%);
     bottom: 0;
 }
@@ -1588,7 +1586,7 @@ header {
 
 .skills {
     width: 100%;
-    min-height: 230vh;
+    min-height: 110%;
 }
 
 .skills img {
